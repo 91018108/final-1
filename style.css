@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    margin: 0;
+  }
+  
+  #profile-pic {
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
+  #info {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 10px;
+    white-space: nowrap; /* 或者使用 display: inline; */
+  }
+
+  button:not(:last-child) {
+    margin-right: 10px; /* 設置右邊距，除了最後一個按鈕以外的所有按鈕 */
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
